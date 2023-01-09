@@ -28,14 +28,3 @@
     gap: 32px;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .place {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    max-width: 100%;
-    margin-top: 50px;
-    gap: 32px;
-  }
-}

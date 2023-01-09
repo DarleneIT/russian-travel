@@ -1,7 +1,7 @@
 .cover {
   margin: 0 auto;
-  background-image: url(../../../images/__overlay.svg), url(../../../images/__background.jpg);
-  background-size: cover;
+  background-image: url("../../images/__overlay.svg"), url("../../images/__background.jpg");
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
   max-width: 1184px;

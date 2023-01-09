@@ -8,10 +8,15 @@
   color: #FFFFFF;
   max-width: 1184px;
   min-height: 740px;
+  background-color: transparent;
+  transition: background-color linear .6s;
 }
 
-.cover__link:hover {
-  background-color:rgba(42, 44, 47, 0.8);
+@media (any-hover: hover) {
+  .cover__link:hover {
+    background-color:rgba(42, 44, 47, 0.8);
+    transition: background-color linear .3s;
+  }
 }
 
 @media screen and (max-width: 1024px) {
