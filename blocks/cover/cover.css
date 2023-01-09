@@ -1,0 +1,34 @@
+.cover {
+  margin: 0 auto;
+  background-image: url(../../../images/__overlay.svg), url(../../../images/__background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1184px;
+  min-height: 740px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover {
+    min-height: 265px;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    min-height: 200px;
+}
+}

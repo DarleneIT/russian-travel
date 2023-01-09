@@ -172,7 +172,7 @@
   justify-self: start;
 }
 
-.place__webdite {
+.place__website {
   align-self: end;
   justify-self: start;
 }
@@ -225,7 +225,6 @@
 .cover {
   background-image: url(./images/__overlay.svg), url(./images/__background.jpg);
   background-size: cover;
-
   background-position: center;
   margin: 92px auto;
   max-width: 1184px;
