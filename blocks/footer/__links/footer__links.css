@@ -2,9 +2,15 @@
 display: flex;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 510px) {
   .footer__links {
     flex-direction: column;
+    gap: 22px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer__links {
     gap: 32px;
   }
 }

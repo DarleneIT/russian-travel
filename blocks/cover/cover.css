@@ -8,27 +8,8 @@
   min-height: 740px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .cover {
-    min-height: 640px;
+    min-height: calc(100vw/1.6);
   }
-}
-
-@media screen and (max-width: 768px) {
-  .cover {
-    min-height: 480px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .cover {
-    min-height: 265px;
-    gap: 16px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover {
-    min-height: 200px;
-}
 }
