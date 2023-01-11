@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 620px) {
+@media  screen and (max-width: 620px) {
   .place__url-heading {
     padding: 0 24px;
     align-self: start;
